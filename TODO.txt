@@ -1,0 +1,32 @@
+
+				GLOBAL 
+TODO: Add error catching blocks (built-in and self-defined) to all critical functions
+TODO: Add unit tests for all classes and functions 
+TODO: General code refactoring 
+
+
+				Card_Game.py
+Tier 1 (Broken)
+
+#BlackJackGame Class: TODO - def EndRound(self) : Implement check for Pocket Aces
+#BlackJameGame Class: TODO - def HasDouble(self, player): Implement function
+#BlackJackGame Class: TODO - Create function (Exit()?) to check if players want to quit and cash out their earnings or keep playing 
+
+
+Tier 2 (Working but Unfinished)
+
+#BlackJackGame Class: TODO - def Bet(self) : Legal Bet Check, make sure they have enouch 'score' to bet
+#BlackJackGame Class: TODO - Boolean functions for PlayerBust, PlayerBlackJack, PlayerPush to clean up Payout() and Pay()
+#BlackJackGame Class: TODO - def SetInfo(self) : condense player_won, player_push into player_outcome
+
+
+Tier 3 (Extend Functionality): 
+
+#BlackJackGame Class: TODO - JSON file for rules, to allow specific rule sets
+#BlackJackGame Class: TODO - def Choice(self, player) : Implement Split and Double Down
+#BlackJackGame Class: TODO - self.players_info : Eventually move into Django ORM database
+#BlackJackGame Class: TODO - def ConvertBust(self, player) : Determine if necessary, implement
+#PokerGame Class: TODO - Implementation
+#HeartsGame CLass: TODO - Implementation
+#Spades Game Class: TODO - Implementation 
+#WarGame Class : TODO - Implementation
